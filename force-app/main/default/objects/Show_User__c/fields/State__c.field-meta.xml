@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State__c</fullName>
+    <externalId>false</externalId>
+    <label>State</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Country__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tamil Nadu</fullName>
+                <default>false</default>
+                <label>Tamil Nadu</label>
+            </value>
+            <value>
+                <fullName>Uttar Pradesh</fullName>
+                <default>false</default>
+                <label>Uttar Pradesh</label>
+            </value>
+            <value>
+                <fullName>Madhya Pradesh</fullName>
+                <default>false</default>
+                <label>Madhya Pradesh</label>
+            </value>
+            <value>
+                <fullName>Delhi</fullName>
+                <default>false</default>
+                <label>Delhi</label>
+            </value>
+            <value>
+                <fullName>California</fullName>
+                <default>false</default>
+                <label>California</label>
+            </value>
+            <value>
+                <fullName>Texas</fullName>
+                <default>false</default>
+                <label>Texas</label>
+            </value>
+            <value>
+                <fullName>Florida</fullName>
+                <default>false</default>
+                <label>Florida</label>
+            </value>
+            <value>
+                <fullName>Beijing</fullName>
+                <default>false</default>
+                <label>Beijing</label>
+            </value>
+            <value>
+                <fullName>Maharashtra</fullName>
+                <default>false</default>
+                <label>Maharashtra</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Tamil Nadu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Uttar Pradesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Madhya Pradesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Delhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Maharashtra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Usa</controllingFieldValue>
+            <valueName>Texas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Usa</controllingFieldValue>
+            <valueName>Florida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Beijing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

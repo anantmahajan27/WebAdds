@@ -56,9 +56,5 @@
 		<members>*</members>
 		<name>HomePageLayout</name>
 	</types>
-	<types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
 	<version>53.0</version>
 </Package>

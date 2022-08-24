@@ -1,0 +1,26 @@
+<apex:page standardController="Show_Client__c" recordSetVar="Show_Clients">
+    <apex:form >
+       <apex:pageBlock title="Client List">
+           <apex:pageBlockTable value="{! Show_Clients}" var="cli">
+                 <apex:column value="{!cli.User_ID__c}"/>
+               <apex:column >
+                   <apex:commandLink reRender="Show_Client__cDetails" >
+                       {!cli.Name}
+                       <apex:param name="cl" value="{!cli.id}"/>
+                   </apex:commandLink>
+               </apex:column>
+               <apex:column value="{!cli.City__c}"/>
+               <apex:column value="{!cli.State__c}"/>
+               <apex:column value="{!cli.Phone_No__c}"/>
+               <apex:column value="{!cli.Email_Address__c}"/>
+           </apex:pageBlockTable>
+       </apex:pageBlock>
+        <apex:commandButton action="{! Previous}" value="Previous" rendered="{! HasPrevious}"/>
+        <apex:outputText style="color: #ccc;" value="Previous" rendered="{! NOT(HasPrevious)}"/>
+        <apex:commandButton action="{! Next}" value="Next" rendered="{! HasNext}"/>
+        <apex:outputText style="color: #ccc;" value="Next" rendered="{! NOT(HasNext)}"/>
+        <apex:pageBlock id="Show_Client__cDetails">
+            <apex:detail subject="{!$CurrentPage.parameters.cl}" relatedList="false" title="false"/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

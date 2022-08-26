@@ -9,6 +9,10 @@
 		<name>ApexTrigger</name>
 	</types>
 	<types>
+		<members>WEB_ADDS_App</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
 		<members>Insert_Add__c.Add_Id__c</members>
 		<members>Insert_Add__c.Client__c</members>
 		<members>Insert_Add__c.No_of_Clicks__c</members>

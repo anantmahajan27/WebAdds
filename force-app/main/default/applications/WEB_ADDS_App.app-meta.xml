@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>Screenshot_20220818_105058</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>WEB ADDS App</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>Show_User__c</tabs>
+    <tabs>Show_Client__c</tabs>
+    <tabs>Insert_Add__c</tabs>
+    <tabs>Send_Advertise__c</tabs>
+    <tabs>Redemption__c</tabs>
+    <tabs>Redemption_Request__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>WEB_ADDS_App_UtilityBar</utilityBar>
+</CustomApplication>

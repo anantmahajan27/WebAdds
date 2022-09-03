@@ -1,0 +1,14 @@
+<template>
+    <lightning-card>
+      <div>
+        <template if:true={Insert_Adds}>
+        <lightning-datatable key-field="Id" data={Insert_Adds} columns={columns} >
+         
+        </lightning-datatable>
+      </template>
+      <template if:true={error}>
+
+      </template>
+      </div>
+    </lightning-card>
+</template>

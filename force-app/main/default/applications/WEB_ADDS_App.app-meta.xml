@@ -13,6 +13,7 @@
     <label>WEB ADDS App</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
+    <tabs>Send_Adds</tabs>
     <tabs>Show_User__c</tabs>
     <tabs>Show_Client__c</tabs>
     <tabs>Insert_Add__c</tabs>

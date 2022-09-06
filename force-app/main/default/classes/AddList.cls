@@ -3,7 +3,7 @@ public with sharing class AddList {
     public static List<Insert_Add__c> queryAddList() {
     
       return [
-          SELECT  Client__c,Id , Name FROM Insert_Add__c ORDER BY Name
+          SELECT  Client__r.Name ,Id , Name FROM Insert_Add__c ORDER BY Name
           LIMIT 20
       ];
   }

@@ -21,7 +21,7 @@ const COLS = [
 export default class AddList extends LightningElement {
  @track columns = COLS;
  @track Insert_Adds;
-
+ @api recordId;
  @wire(queryAddList)
     wiredInsert_Adds(result){
         if (result.data){

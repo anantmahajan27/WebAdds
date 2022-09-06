@@ -8,7 +8,7 @@ public with sharing class NewUserRegistrationClass {
                     emailMsg.setToAddresses(toAddress);
                 String emailSub = 'Welcome' + ' ' + user.Name;
                 emailMsg.setSubject(emailSub);
-                String content = 'Hi,' + '' +  '<p/>'  + user.Email_Address__c + ' Is your UserName' + '<br/><br/>' + 
+                String content = 'Hi,' + ' ' +  '<p/>'  + user.Email_Address__c + ' Is your UserName' + '<br/><br/>' + 
                     'And Your Psaawors is :-' + user.Password__c;
                 emailMsg.setHtmlBody(content);
                 lstEmail.add(emailMsg);

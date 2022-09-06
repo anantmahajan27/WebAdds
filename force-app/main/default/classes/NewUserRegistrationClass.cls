@@ -6,7 +6,7 @@ public with sharing class NewUserRegistrationClass {
                 Messaging.SingleEmailMessage emailMsg = new   Messaging.SingleEmailMessage();
                 String[] toAddress = new String[]{user.Email_Address__c};
                     emailMsg.setToAddresses(toAddress);
-                String emailSub = 'Welcome' + user.Name;
+                String emailSub = 'Welcome' + ' ' + user.Name;
                 emailMsg.setSubject(emailSub);
                 String content = 'Hi,' + '' +  '<p/>'  + user.Email_Address__c + ' Is your UserName' + '<br/><br/>' + 
                     'And Your Psaawors is :-' + user.Password__c;

@@ -13,6 +13,10 @@
 		<name>ApexTrigger</name>
 	</types>
 	<types>
+		<members>*</members>
+		<name>AuraDefinitionBundle</name>
+	</types>
+	<types>
 		<members>WEB_ADDS_App</members>
 		<name>CustomApplication</name>
 	</types>
@@ -67,6 +71,10 @@
 	<types>
 		<members>Send_Adds</members>
 		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>Registration</members>
+		<name>Flow</name>
 	</types>
 	<types>
 		<members>*</members>
